@@ -1,0 +1,33 @@
+.copyright{
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    font-size: 0.8rem;
+}
+.scroll-to-top{
+    background-color: var(--secondary) !important;
+    color: #fff !important;
+    border-radius: 50% !important;
+    right:4px!important;
+    transition: .5s;
+    width: 43px;
+    height: 43px;
+    box-shadow: 0 9px 25px 0 rgb(132 128 177 / 28%);
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+.scroll-to-top svg{
+    fill: #fff !important;
+    margin: -6px -9px;
+}
+
+@media screen and (max-width:768px) {
+    .copyright{
+        flex-direction: column;
+    }
+    .left-sec-cop{
+        margin-bottom: 15px;
+    }
+}

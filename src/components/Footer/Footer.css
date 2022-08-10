@@ -1,0 +1,108 @@
+.footer{
+   background: #272630 url("../../assets/footer.jpg") center center no-repeat;
+   background-size: contain;
+   color:#F2F2F2;
+   display: flex;
+   justify-content: space-between;
+   gap:20px;
+   padding:3rem;
+   margin: 0;
+   font-family: sans-serif;
+   font-size: 0.8rem;
+   font-weight: 400;
+   line-height: 1.5;
+   text-align: left;
+}
+.footer > div{
+    width:25%;
+}
+.footer a{
+    color:#F2F2F2 !important;
+}
+.footer h4{
+    color:#FFE468 !important;
+    font-size: 1rem;    
+}
+.footer hr{
+    background-color:#8CC641 !important;
+    width: 20%;
+    height: 2px;
+    border: 0px;
+    margin-bottom: 1.25rem;
+    margin: 1rem 0;    
+}
+.footer-sec-1 p.para{
+    margin-bottom: 1.5rem;
+}
+.footer-sec-1 p{
+    margin-bottom: 0.5rem;
+}
+.footer-sec-1 span{
+    color:var(--primary);
+    margin-right: 0.7rem;
+}
+.footer-sec{
+    display: flex;
+    flex-direction: column;
+}
+.footer-sec a{
+    margin-bottom: .5rem;   
+}
+.footer-sec span{
+    margin-right: 0.3rem;
+}
+.footer .input-group{
+    display: flex;   
+    align-items: flex-end; 
+    width: 100%;
+    height: 70px;
+    gap:0px; 
+    margin-bottom: 1.5rem;  
+}
+.footer-sec-4 input{
+    width:60% !important;
+    height:60px;
+    border:0 !important; 
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+.footer-sec-4 input::placeholder{
+    padding-left: 10px;
+}
+.footer-sec-4 button{
+    width:40%;
+    height:60px;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;    
+}
+.footer h6{
+    color: var(--primary);
+    font-size: 0.7rem;
+}
+.social-icons-f span{
+    background-color: var(--primary);
+    border-radius: 50%;
+    display: inline-block   ;
+    color:#272630;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 1rem;
+    padding: 9px 9px;
+    margin-top: 10px;    
+}
+@media screen and (max-width:768px){
+    .footer{
+        flex-direction: column;
+    }
+    .footer > div{
+        width:100%;
+    }
+}
+@media screen and (max-width:992px){
+    button {        
+        padding: 0.75rem 0.45rem;
+    }
+}

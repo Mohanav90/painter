@@ -1,0 +1,107 @@
+.getQuote{
+    background: var(--primary) url("../../assets/quote.jpg") top right no-repeat;
+    background-size: contain;
+    margin: 40px 0;
+    padding: 88px 0;
+}
+.quote-sec{        
+    display: flex;
+    height: 500px;  
+    padding-left: 100px; 
+    text-align: center;
+    
+}
+.quote-sec form{
+    background-color: #fff;
+    align-self: center; 
+    padding: 40px;
+    width: 50%;
+}
+.quote-sec form h1{
+    margin-bottom: 30px;
+}
+.quote-sec form input{
+    background-color: var(--light);
+    border: transparent;
+    padding: 10px;
+    margin: 13px 4px;
+    border-radius: 10px;
+    height: 55px;
+}
+input[type="text"],input[type="email"]{
+    width: 48%;
+}
+input:focus{
+    border:1px solid var(--primary) !important;
+}
+textarea,button{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+textarea{
+    background-color: var(--light);
+    border:none;
+    min-height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+}
+input::placeholder,textarea::placeholder{
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color:#54595F;
+    line-height: 1.5;
+}
+button{
+    background-color: var(--primary);
+    transition: .5s;
+    color:#000;
+    line-height: 1.5;
+    padding: 0.75rem .75rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 20px;
+}
+button:hover{
+    box-shadow: 0 8px 6px -6px #555555;
+    color: #000;
+    background-color: #ffe87f;
+    border-color: #ffe777;
+}
+@media screen and (max-width:768px) {
+    .getQuote {
+        background-size: cover;
+        margin: 40px auto;
+        padding: 88px 0;
+    }
+    .quote-sec form {        
+        width: 100%;
+    }
+    input[type="text"], input[type="email"] {
+        width: 100%;
+    }
+    .quote-sec {        
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .getQuote {
+        background-size: cover;
+        margin: 40px auto;
+        padding: 88px 0;
+    }
+    .quote-sec form {        
+        width: 50%;
+    }
+    input[type="text"], input[type="email"] {
+        width: 100%;
+    }
+    .quote-sec {        
+        padding: 0 30px;
+    }
+    button {
+        padding: 0.75rem 0.45rem;
+    }    
+}

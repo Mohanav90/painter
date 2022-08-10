@@ -1,0 +1,164 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: var(--dark);
+    padding: 0 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.left-l .logo-sec{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:0.7rem;
+}
+.left-l .logo-sec span{
+    color: var(--secondary);
+    font-size: 2rem;
+}
+.left-l .logo-sec h1{
+    color: var(--primary);
+    text-transform: uppercase;
+    font-family: "Roboto Condensed",sans-serif;
+    vertical-align: middle;
+}
+.right-l{
+    display: flex;
+    justify-content: space-between;
+}
+.right-l ul{
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+    border-right: 4px solid var(--primary);
+    line-height: 101px;
+    padding-right: 13px;
+    overflow: hidden;
+    position: relative;
+}
+.right-l ul li a{
+    color: var(--light);
+    font-size: 0.9rem;
+    padding:0 0.2rem;
+}
+.right-l ul li a:hover{
+    color: var(--primary);
+}
+.right-l ul li a.active{
+    color: var(--primary);
+}
+.right-l ul li{
+    position: relative;
+}
+.right-l ul li::before{
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    background: var(--primary);
+    transition: .5s;
+}
+.right-l ul li:hover::before{
+   width: 100%;
+   left:0;
+}
+.call-now{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+    padding: 0 1rem;
+}
+.call-now .left-sec span{
+    color:var(--secondary);
+    font-size: 1.5rem;    
+}
+.call-now .right-sec{
+    display: flex;
+    flex-direction: column;  
+    height: 10px;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -10px;
+}
+.call-now .right-sec span:nth-of-type(1){
+    color:var(--primary);
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+    transform: scaleY(1.2);
+    font-weight: 700;
+}
+.call-now .right-sec span:nth-of-type(2){
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--light);
+}
+.checkbtn{
+    font-size: 30px;
+    color:white;    
+    line-height: 80px;    
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+    position: relative;
+}
+.checkbtn span{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.right-l ul li a {    
+    font-size: 1rem;
+}
+/* @media screen and (max-width:576px){
+    .header-text h1 {
+        font-size: 1.9rem;
+    }
+ 
+} */
+
+@media screen and (max-width:768px){
+    .call-now{
+        display: none;
+    }   
+     .checkbtn{
+        display: block;
+    }
+    .right-l ul{
+        position: fixed;
+        width: 100%;
+        height: 449px;
+        background-color: var(--dark);
+        color: #fff;
+        top:100px;
+        left:-100%;
+        text-align: left;
+        flex-direction: column;
+        transition: all .5s;
+        padding-left: 50px;
+    }
+    .right-l ul li{
+        display: block;
+        line-height: 0;
+    }
+    #check:checked ~ ul{
+        left:0;
+        padding: 51px;
+    }
+}
+/* @media screen and (max-width:992px){
+    .header-text h1 {
+        width: fit-content;
+    }
+    .header-text p {
+        font-size: 1.1rem;
+    }
+} */

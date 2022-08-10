@@ -1,0 +1,45 @@
+.project{
+    background: var(--primary) url("../../assets/call_to_action.jpg") top right no-repeat;
+    background-size: contain;
+    padding:100px;
+}
+.project-sec{
+    width:50%;
+    text-align: left;
+}
+.project-sec h1{
+    margin-bottom: 1.5rem;
+    font-size: calc(1rem + 1.1vw);
+    font-weight: 700;
+    line-height: 1.2;
+    transform: scaleY(1.5);
+}
+.project-sec p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: sans-serif;    
+    line-height: 1.5;
+    color: #54595F;
+    margin-bottom: 2rem !important;
+}
+.project-sec a{
+    background-color: var(--secondary);
+    color: #fff;
+    padding: 1rem 3rem;
+    border-radius: 50rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: .5s;
+}
+.project-sec a:hover{
+    box-shadow: 0 8px 6px -6px #555555;
+}
+@media screen and (max-width:768px) {
+    .project {
+         background-size: cover;
+         padding: 95px 36px;
+    }
+    .project-sec {
+        width: 100%;
+    }
+}

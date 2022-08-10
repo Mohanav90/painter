@@ -1,0 +1,75 @@
+.header{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 27rem;   
+    background: var(--primary) url('../../assets/hero.jpg') top right no-repeat;   
+    background-size: contain;
+}
+.header-text{
+    padding:0 5rem;
+    text-align: left;
+}
+.header-text h1{
+    color:var(--dark);
+    font-size:3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    transform: scaleY(1.2);
+    width: 70%;
+}
+.header-text p{
+    font-size: 1.2rem;
+    margin: 35px 0;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color:var(--dark);
+}
+
+.quote a{
+    padding:18px 38px;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: .5s;
+}
+.quote .get-a-quote{
+    background-color: var(--secondary);
+    color:var(--light);
+    margin-right: 20px;
+}
+.quote .get-a-quote:hover{
+    box-shadow: 0 8px 6px -6px #555555;
+}
+.quote .contact-us{
+    border:1px solid var(--secondary);
+    color:var(--secondary);
+}
+.quote .contact-us:hover{
+    box-shadow: 0 8px 6px -6px #555555;
+    color: #fff;
+    background-color: #8CC641;
+    border-color: #8CC641;
+}
+@media screen and (max-width:768px){
+    .header{
+        background-size: cover;
+    }
+    .header-text{
+        text-align: center;
+    }
+    .header-text h1{
+        font-size: 2.5rem;
+        width: fit-content;  
+}
+}
+@media screen and (max-width:992px){
+    .header-text h1 {       
+        font-size: 2.5rem;
+    }
+    .header-text p {
+        font-size: 1.1rem;
+    }
+}
