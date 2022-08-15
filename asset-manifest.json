@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/github.io/painter/static/css/main.414325a8.css",
+    "main.js": "/github.io/painter/static/js/main.7d87fa91.js",
+    "static/js/787.e381df78.chunk.js": "/github.io/painter/static/js/787.e381df78.chunk.js",
+    "static/media/hero.jpg": "/github.io/painter/static/media/hero.ec7904319e3409e7d120.jpg",
+    "static/media/quote.jpg": "/github.io/painter/static/media/quote.dcbd51964dc7d90f65af.jpg",
+    "static/media/about_2.jpg": "/github.io/painter/static/media/about_2.7d58c9ab967eaee9b4c9.jpg",
+    "static/media/call_to_action.jpg": "/github.io/painter/static/media/call_to_action.c986db6e31f0b6611684.jpg",
+    "static/media/testimonial.jpg": "/github.io/painter/static/media/testimonial.c888011708ddd0e68a8b.jpg",
+    "static/media/about_1.jpg": "/github.io/painter/static/media/about_1.005765987cfeb5203cd3.jpg",
+    "static/media/blog_1.jpg": "/github.io/painter/static/media/blog_1.57ca955f79044467189f.jpg",
+    "static/media/blog_3.jpg": "/github.io/painter/static/media/blog_3.868f252fed2c0883e187.jpg",
+    "static/media/blog_2.jpg": "/github.io/painter/static/media/blog_2.7d018c226c8b33fe482c.jpg",
+    "static/media/team_2.jpg": "/github.io/painter/static/media/team_2.df31460e7242d9095c0d.jpg",
+    "static/media/team_3.jpg": "/github.io/painter/static/media/team_3.37b4f771a4e349fdd989.jpg",
+    "static/media/team_1.jpg": "/github.io/painter/static/media/team_1.59b8e00dde78406ddf63.jpg",
+    "static/media/footer.jpg": "/github.io/painter/static/media/footer.95af69b3349f800c3b17.jpg",
+    "index.html": "/github.io/painter/index.html",
+    "main.414325a8.css.map": "/github.io/painter/static/css/main.414325a8.css.map",
+    "main.7d87fa91.js.map": "/github.io/painter/static/js/main.7d87fa91.js.map",
+    "787.e381df78.chunk.js.map": "/github.io/painter/static/js/787.e381df78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.414325a8.css",
+    "static/js/main.7d87fa91.js"
+  ]
+}
